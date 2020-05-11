@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   planeteer_calls.select do |call|
-    "#{call.uppercase}!"
+    "#{call.upcase}!"
   end
 end
 
