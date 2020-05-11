@@ -26,5 +26,5 @@ end
 def find_the_cheese(array_strings)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array_strings.detect{|stri| cheese_types.include?(stri)}
+  array_strings.detect{|stri| cheese_types.find?(stri)}
 end
